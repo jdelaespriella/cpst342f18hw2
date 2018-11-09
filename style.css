@@ -84,7 +84,7 @@ header {
 	position: relative;
 	top: 0;
 	left: 0;
-	background-color: darkgray;
+	background-color: green;
 }
 
 footer {
@@ -93,7 +93,13 @@ footer {
 	position: relative;
 	top: 0;
 	left: 0;
-	background-color: darkgray;
+	background-color: green;
+}
+
+li {
+	display: inline;
+	padding: 25px;
+	vertical-align: middle;
 }
 
 /* header and footer from https://stackoverflow.com/questions/22551730/how-to-change-header-and-footer-to-full-width */
