@@ -67,10 +67,11 @@ table {
 
 h1 {
 	color: orangered;
-	font-size: 4rem;
+	font-size: 3rem;
 	margin-bottom: 20px;
 	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 	grid-column: 1 / 5;
+	grid-row: 2 / 4;
 }
 
 h2 {
@@ -80,6 +81,7 @@ h2 {
 	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 	margin-bottom: 20px;
 	grid-column: 1 / 9;
+	grid-row: 3 / 4;
 }
 
 p {
@@ -87,6 +89,7 @@ p {
 	font-size: 1rem;
 	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 	margin-bottom: 10px;
+	grid-row: 4 / 4;
 }
 
 #p1{
@@ -121,6 +124,14 @@ li {
 	display: inline;
 	padding: 25px;
 	vertical-align: middle;
+}
+
+img {
+	border-radius: 8px;
+	width: 300px;
+	height: 300px;
+	grid-row: 2 / 4;
+	grid-column: 8 / 12;
 }
 
 /* header and footer from https://stackoverflow.com/questions/22551730/how-to-change-header-and-footer-to-full-width */
