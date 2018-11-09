@@ -76,3 +76,24 @@ p {
 	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 	margin-bottom: 10px;
 }
+
+
+header {
+	width: 100%;
+	height: 100px;
+	position: relative;
+	top: 0;
+	left: 0;
+	background-color: darkgray;
+}
+
+footer {
+	width: 100%;
+	height: 100px;
+	position: relative;
+	top: 0;
+	left: 0;
+	background-color: darkgray;
+}
+
+/* header and footer from https://stackoverflow.com/questions/22551730/how-to-change-header-and-footer-to-full-width */
