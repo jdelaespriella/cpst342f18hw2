@@ -52,3 +52,27 @@ table {
  * ## END CSS RESET ##
  * ###################
  */
+
+h1 {
+	color: orangered;
+	font-size: 4rem;
+	margin-bottom: 20px;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	grid-column: 1 / 5;
+}
+
+h2 {
+	color: darkorange;
+	font-size: 2rem;
+	text-transform: uppercase;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	margin-bottom: 20px;
+	grid-column: 1 / 9;
+}
+
+p {
+	color: orange;
+	font-size: 1rem;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	margin-bottom: 10px;
+}
