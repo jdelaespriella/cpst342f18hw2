@@ -103,3 +103,14 @@ li {
 }
 
 /* header and footer from https://stackoverflow.com/questions/22551730/how-to-change-header-and-footer-to-full-width */
+
+#content{
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-auto-rows: minmax(100px, auto);
+	grid-gap: 10px;
+	max-width: 960px;
+	margin: 0 auto;
+	position:relative;
+	/* from https://github.com/iamshaunjp/css-grid-playlist/blob/lesson-7/index.html */
+}
